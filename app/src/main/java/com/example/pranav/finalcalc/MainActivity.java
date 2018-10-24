@@ -159,21 +159,27 @@ public class MainActivity extends AppCompatActivity {
             c=i+j;
             edit.setText(c+"");
 
-        } else if (op == '-') {
+        } 
+        
+        else if (op == '-') {
 
             i=Float.parseFloat(h);
             j=Float.parseFloat(s+sb);
             c=i-j;
             edit.setText(c+"");
 
-        } else if (op == '*') {
+        } 
+        
+        else if (op == '*') {
 
             i=Float.parseFloat(h);
             j=Float.parseFloat(s+sb);
             c=i*j;
             edit.setText(c+"");
 
-        } else if (op == '/') {
+        } 
+        
+        else if (op == '/') {
 
             i=Float.parseFloat(h);
             j=Float.parseFloat(s+sb);
